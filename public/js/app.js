@@ -3,7 +3,7 @@ var userInput = function (reddit) {
   var reddit_name = userName.value;
   reddit(reddit_name);
 };
-
+// scraping with node 
 var redditInput = function (reddit_name) {
   // console.log(reddit_name);
   var reddit_xhr = new XMLHttpRequest;
